@@ -13,7 +13,13 @@ namespace MyFirstGitHubClassRoomConsoleApp60
         private string _vareBeskrivelse;
         private int _pris;
 
-
+        pulbic Demo (int id, string vareNavn, string VareBeskrivelse, int pris)
+        {
+            _id = 0;
+            _vareNavn = vareNavn;
+            _vareBeskrivelse = VareBeskrivelse;
+            _pris = pris;
+        }
 
         public int id
         {
